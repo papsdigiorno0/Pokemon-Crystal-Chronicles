@@ -20,8 +20,8 @@ rom_obj := \
 	gfx/tilesets.o \
 	lib/mobile/main.o
 
-pokecrystal_obj         := $(rom_obj:.o=.o)
-pokecrystal11_vc_obj    := $(rom_obj:.o=_vc.o)
+pokecrystal_obj    := $(rom_obj:.o=.o)
+pokecrystal_vc_obj := $(rom_obj:.o=_vc.o)
 
 
 ### Build tools
