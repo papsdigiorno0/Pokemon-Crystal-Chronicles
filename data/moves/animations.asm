@@ -279,6 +279,7 @@ BattleAnimations::
 	dw BattleAnim_RockSmash
 	dw BattleAnim_Whirlpool
 	dw BattleAnim_BeatUp
+	dw BattleAnim_PlayRough
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -3006,6 +3007,7 @@ BattleAnim_Metronome:
 	anim_wait 48
 	anim_ret
 
+BattleAnim_PlayRough:
 BattleAnim_Counter:
 	anim_1gfx ANIM_GFX_HIT
 .loop

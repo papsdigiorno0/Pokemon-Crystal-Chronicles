@@ -853,6 +853,7 @@ SnubbullEvosAttacks:
 	dbw 19, LICK
 	dbw 26, ROAR
 	dbw 34, RAGE
+	dbw 37, PLAY_ROUGH
 	dbw 43, TAKE_DOWN
 	db 0 ; no more level-up moves
 
@@ -866,6 +867,7 @@ GranbullEvosAttacks:
 	dbw 19, LICK
 	dbw 28, ROAR
 	dbw 38, RAGE
+	dbw 43, PLAY_ROUGH
 	dbw 51, TAKE_DOWN
 	db 0 ; no more level-up moves
 
